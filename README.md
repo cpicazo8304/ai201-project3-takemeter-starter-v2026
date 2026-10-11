@@ -48,40 +48,94 @@
 
 ## Label Taxonomy
 
-<!-- Each label: a one-sentence definition and two real examples from your
-     reading. Then your decision rule for the hardest boundary.
 
-     The decision rule is worth a point on its own and it's the thing most
-     people leave out. Every taxonomy has a hardest boundary. Name yours. -->
+### `Reasoned Opinion`
 
-### `label_one`
+**Definition:** Gives judgement (whether good or bad), but includes an explanation of why based on lyrics, instrumental, vibe, etc.
+
+**Example 1:**
+> 
+BLUE BLOOD: Strong opener. Interesting instrumental. It would work very well as an opener for their tours similar to aespa’s AENERGY.
+
+I AM: Pop heaven for a Pop Brat like me. The notes are a bit too high at some points, but it’s a very catchy tune. I love the second verse. Gaeul’s rap is a great break from the high-pitched nature of the song. Liz, Liz, Liz! She sounds lovely.
+
+KITSCH: I liked it when I first heard it and still do but listening to this album and comparing it to their previous tracks, it’s pretty basic and doesn’t stick out in any particular way. The verses are good, but reminiscent of early to mid-2010s pop with a tiny hint of nostalgia. The chorus, while an earworm, is repetitive and kind of throws the song off in a way. I’m not sure if it’s in an entirely bad way, just that it feels odd. The rap bridge was … interesting. I like the way the pre-chorus sounds after the bridge, though.
+
+LIPS: It’s a mood, it’s a vibe, it’s paradise. It’s a cute little summer beach tune (we southern hemisphere citizens are heading into winter soon but okay). Nothing much to say. It’s just cute!
+
+HEROINE: Vocals are great. That whoo na-na-na-na section took me by surprise but I love it. The track doesn’t stick out in a particularly good or bad way.
+
+MINE: This is the track that I claimed from the highlight melody and I’m happy to report that it has not disappointed me. I love the melody and the “bounciness” of the song. It reminds me of a very specific sound from the early to mid-2010s in a good way. I really like the tempo, the instrumental, and the way it’s sung. The section that they used for the snippet from the highlight medley is very catchy. I really like this song and it’s going on my daily playlist.
+
+HYPNOSIS: It makes me feel like an under-the-radar badass. “Cool” is the only word that I can use to describe this song. I like the instrumental and whatever’s happening in the background. It’s what SHOOT and Gas Me Up are to ITZY. It also sounds like it could have been a track on aespa's Savage album. Maybe even the Girls album (Illusion's sister).
+
+NOT YOUR GIRL: I’m first and foremost a Pop Brat and this song is everything, everything, everything! It’s a song that very much lifts your spirit and puts you in a good mood. It’s got a catchy melody and good vibes. Love it! It’s too bright to put in my daily playlist, but there’s a place reserved for it somewhere on one of my main playlists.
+
+NEXT PAGE: It’s nice. It’s got a filler-y quality about it, though. It doesn’t stick out as particularly good or bad. They sound great, though.
+
+CHERISH: Groovy instrumental! Their vocals are lovely on the track. But my feelings about it are the same as Next Page.
+
+SHINE WITH ME: It’s fine. Good, even. The instrumental is very pretty. It’s a bit too ballad-y for my taste, though, especially since my mood is all out of sorts (PMS) and I’m craving some upbeat music.
+
+In conclusion, it’s a solid album. Some tracks stick out more than others, but that’s to be expected with a full album. The songs that didn’t hook me have the potential to grow on me. The songs that hooked me are among my favourite releases from the year so far. It's missing a strong track like My Satisfaction (which is still one of their best songs) but it's diverse enough to lay the foundation of what might become their signature sound.
+
+**Example 2:**
+My first thoughts (editing/adding when I'm done listening):
+
+Blue Blood : Nice, a good opener, but I feel like the song doesn't really go anywhere? I'd say a solid 7/10 for me
+
+I AM: it's a great title. 9/10 because some passages sound a bit empty to me but overall really good.
+
+Kitsch: I instantely liked this song when it came out and still think it holds up great. I don't think the place in the tracklist makes too much sense, having it directly after I AM is a bit overwhelming. But the song is still a 9/10.
+
+Lips: Ohhh I really really like this! 9/10, maybe even 10/10 in a few days, it's definitely added to my playlist.
+
+Heroine: It's nice. I like their voices, they sound really good in this. Also the brige buildup to the last chorus is >>>. A good b-side, not extraordinary but solid. I think the rating may improve with more listens. 7.5/10
+
+Mine: The first neutral song for me. It's not bad, I wouldn't play it again though. 5/10
+
+Hypnosis: that intro, I almost thought my headphones broke. Changes up the sound, I like that! The rythm is definitely hypnotizing. The song itself isn't it for me, but I applaud them for doing something different so bonus points for that 6/10.
+
+NOT YOUR GIRL: Ohh it's cute. It's fun. An instant mood boster. It reminds me of the songs that are played during a makeover montage in a teen movie. 9/10, will add this to my getting ready playlist for sure.
+
+Next Page: I'm really not sure what to think of this song. I do like it, but also something is missing I just don't really know what? Unfortunately only a 6/10 so far.
+
+Cherish: I like the pre-chorus. The chorus itself falls a bit flat for me. It's a nice song and a good b-side but a bit too repetitive for my taste. The girls sound good though. It's also mixing up style and tempo quite a lot which is nice. 7/10.
+
+Shine With Me: A classic closing ballad. The lyrics are really good and feel very personal - this is a song for DIVE right? 8.5/10.
+
+Overall: The album has some solid bangers and good b-sides. Some songs fall a bit flat for me but with 11 songs in an album that's completely okay and to be expected, and maybe those songs are the favorite songs of other people (I'm seeing a lot of people being into Hyponsis!) . Overall they offer a good variety of styles, sounds and themes all while maintaining a certain IVE-style. It's a great album, one I'll definitely come back to listen often (and maybe even order a physical copy).
+
+### `Unreasoned Opinion`
 
 **Definition:**
 
 **Example 1:**
->
+Not a single skip in my opinion. What a perfect first album.
+
 
 **Example 2:**
->
+Not your girl giving me the song of summer vibes.
 
-### `label_two`
 
-**Definition:**
+### `Emotional Reaction`
+
+**Definition:** A comment that mainly expresses a feeling (excitement, love, frustration, humor) rather than explaining a judgment. It may hint at an opinion, but gives no reasons for it.
 
 **Example 1:**
->
+Rei ran out of rap. That’s why she said she needed to do better hahah
+
+Kidding aside…it makes you want to repeat it dontcha think??
 
 **Example 2:**
->
+girl why is hypnosis so short!!!!! i neeed more sound like this from ive!!!!!
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** Emotional Reaction and Unreasoned opinion
 
 **The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
-
+If the post states a claim (good or bad) about a song or album ("this song is really good!"), it can be an unreasoned opinion. If it only expresses a feeling (excitement, love, frustration, humor) without claiming anything about the song's quality, it's an emotional reaction ("this gives me goosebumps!!"). When a comment does both, I labeled it by the main point: a verdict on quality made it an unreasoned opinion, and a feeling or joke made it an emotional reaction.
 
 
 ---

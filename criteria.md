@@ -51,9 +51,8 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Per-label performance
 
-<!-- Your criterion. It must name a number. -->
 
 
 
@@ -63,7 +62,7 @@ whether you hit them:
 
 ---
 
-## 2.
+## 2. Overall Accuracy
 
 <!-- Your criterion. -->
 
@@ -75,7 +74,7 @@ whether you hit them:
 
 ---
 
-## 3.
+## 3. Consistency
 
 <!-- Your criterion. -->
 
@@ -87,7 +86,7 @@ whether you hit them:
 
 ---
 
-## 4.
+## 4. 
 
 <!-- Your criterion. -->
 
