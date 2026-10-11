@@ -53,59 +53,59 @@ whether you hit them:
 
 ## 1. Per-label performance
 
+F1 score of at least 0.55 for each label is the goal.
 
 
 
 **Why this target:**
-
+Emotional Reaction label in a discussion forum page may lack a bit since people will mainly discuss their opinions on a song rather than just react with feelings, so at least 0.55 F1 score works.
 
 
 ---
 
 ## 2. Overall Accuracy
 
-<!-- Your criterion. -->
+An overall accuracy of at least 70% is the goal. 
 
 
 
 **Why this target:**
 
-
+Being realistic about the number of examples (at least 200) and for a label like "Emotional Reaction" maybe lacking compared to the other two (could bring down accuracy), at least 70% accuracy will be good. 
 
 ---
 
 ## 3. Consistency
 
-<!-- Your criterion. -->
+Agreement between annotators should be at least 90%. 
 
 
 
 **Why this target:**
 
+Don't want to much disagreement because that would mean the taxonomy defintions are not clear or decriptive enough. 90% is a good mark.
 
 
 ---
 
-## 4. 
+## 4. Balance
 
-<!-- Your criterion. -->
-
-
+The largest label has to be less than or equal to 50%.
 
 **Why this target:**
-
+There are three labels, so if split evenly, it should be at least 33% each. However, if a label gets to more than 50%, it will dominate the other two (at most 25% each). 25% of 200 is 50, so anything less will leave so little for the test set. 
 
 
 ---
 
-## 5.
+## 5. Confidence
 
-<!-- Your criterion. -->
+Predictions at confidence ≥ 0.8 are correct ≥ 85% of the time
 
 
 
 **Why this target:**
-
+I chose this confidence target because predictions above the threshold should be reliable enough to use without checking every post. Lower-confidence predictions can be reviewed manually.
 
 
 ---
