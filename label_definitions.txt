@@ -5,6 +5,6 @@
 #
 # Delete the examples below and put yours in.
 
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+Reasoned Opinion: a judgment about a song or album that gives a reason, explanation, or evidence based on lyrics, instrumentation, melody, vocal delivery, vibe, or overall musical quality.
+Unreasoned Opinion: a direct verdict about a song or album’s quality without explaining why; a quick claim or rating such as “this is great” or “this is bad.”
+Emotional Reaction: a reaction driven by feeling or tone—excitement, humor, frustration, affection, or surprise—without offering a clear reasoned judgment about the song’s quality.
