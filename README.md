@@ -42,7 +42,7 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-
+There is a 
 
 ---
 
@@ -108,7 +108,7 @@ Overall: The album has some solid bangers and good b-sides. Some songs fall a bi
 
 ### `Unreasoned Opinion`
 
-**Definition:**
+**Definition:** A claim about the album or a song but has no reason of why they think that way. 
 
 **Example 1:**
 Not a single skip in my opinion. What a perfect first album.
@@ -145,45 +145,41 @@ If the post states a claim (good or bad) about a song or album ("this song is re
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** Reddit r/kpop -> a post called "IVE - I've IVE (The 1st Album)"
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**How I labelled them:** I did 23 cold first then pre-labeled with AI then corrected.
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| Reasoned Opinion | 101 | 49.5% |
+| Unreasoned Opinion | 83 | 40.7% |
+| Emotional Reaction | 20 | 9.8% |
+| **Total** | 204 | 100% |
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
-
 **1.**
-> *The post:*
+> *The post:* Cherish got me doing body rolls why does it go so hard
 >
-> *Could have been:*
+> *Could have been:* Unreasoned Opinion
 >
-> *I chose, because:*
+> *I chose, because:* Emotional reaction, because although it could be an opinion, it leans more towards emotional reaction because of the exaggerated "body rolls".
 
 **2.**
-> *The post:*
+> *The post:* I am honestly blown away by this album, and pretty emotional ngl lol. My favorites so far: Blue Blood, Lips, Heroine, Hypnosis (ARE THEY KIDDING MEEE???), and Next Page.
 >
-> *Could have been:*
+> *Could have been:* Unreasoned Opinion
 >
-> *I chose, because:*
+> *I chose, because:* Emotional reaction, because the "ARE THEY KIDDING MEEE???" and the "pretty emotional" shows the main point is the emotions they felt and their reactions rather claiming a song is really good (does lay out favorites but no claims about them).
 
 **3.**
-> *The post:*
+> *The post:* Just wanted to drop by and say Cherish’s chord progression gave me a nice little brain itch and I don’t see enough appreciation for it.”
 >
-> *Could have been:*
+> *Could have been:* Unreasoned Opinion
 >
-> *I chose, because:*
+> *I chose, because:* Reasoned opinion, because the main claim is that they enjoy the song "Cherish" which is shown by the "I don't see enough appreciation for it" while the reason is "Cherish's chord progression". 
 
 ---
 
@@ -207,26 +203,19 @@ of next unit's variance. -->
 
 ## How I Used AI
 
-<!-- Two specific moments — what you asked, what came back, what you changed.
-
-     ⚠️ Plus disclosure of any pre-labelling. If you had a model pre-label a
-     batch and then read and corrected every one, say that. It's an allowed
-     workflow and disclosing it costs you nothing. Not disclosing it is the
-     problem. -->
-
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* To pre-label the text.
+- *What came back:* a new .csv file with labels for each text and a note (that I edited with "checked" after checking).
+- *What I changed:* A few of the labels were not what I thought they should be and I changed them.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Give examples of numbers to use for criteria.
+- *What came back:* Gave me examples (like range of numbers or units) for each criteria.
+- *What I changed:* I changed the range or number to fit what I wanted. I just needed the unit.
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** I pre-labeled but checked the labels on my own.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
