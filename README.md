@@ -185,17 +185,21 @@ If the post states a claim (good or bad) about a song or album ("this song is re
 
 ## The Training Run
 
-<!-- Your starting model, your settings, and anything you changed and why. -->
+**Base model:** `distilbert-base-uncased` (fine-tuned for sequence classification)
 
-**Base model:**
+**Settings:** 2 epochs, learning rate `1e-4`, batch size 16, seed 42 (maximum
+sequence length: 128 tokens)
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Anything I changed from the defaults, and why:**Changed 2e-5 learning rate to 1e-4 learning rate and 3 epochs to 2 epochs. I changed to 1e-4 so that the model wouldn't learn too slow, requiring more epochs. By doing that, I also had to lower the epochs since I noticed it reached a min of loss at 2 epochs.
 
-**Anything I changed from the defaults, and why:**
+**Split sizes:**
+                    train  val  test
+label                               
+Reasoned Opinion       71   15    15
+Unreasoned Opinion     57   13    13
+Emotional Reaction     14    3     3
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+Note: Emotional Reaction only has 3 examples for both val and test set.
 
 
 
