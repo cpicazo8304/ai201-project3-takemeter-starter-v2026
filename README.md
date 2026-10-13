@@ -241,8 +241,7 @@ Note: Emotional Reaction only has 3 examples for both val and test set.
 | F1 — `label_two` |  |  |  |
 
 **What I predicted before I looked:**
-<!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
-     prediction made afterwards isn't one. -->
+I predict that posts that could be between two posts will be misclassified by the baseline model. Since I myself made the decision on these labels, it comes from my own perspective rather than a model's.
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added

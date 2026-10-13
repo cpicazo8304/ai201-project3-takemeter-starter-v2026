@@ -95,7 +95,11 @@ def classify(texts, labels, definitions=None, quiet=False):
     if not quiet:
         print(f"Loading {ZERO_SHOT_MODEL} (first run downloads ~1.6 GB)…", flush=True)
 
-    classifier = pipeline("zero-shot-classification", model=ZERO_SHOT_MODEL)
+    try:
+        classifier = pipeline("zero-shot-classification", model=ZERO_SHOT_MODEL)
+    except Exception as e:
+        print(f"Error loading zero-shot model: {e}")
+        raise
 
     definitions = definitions or {}
     # Give the model the definition where we have one; it discriminates far
