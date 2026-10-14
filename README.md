@@ -257,12 +257,11 @@ So, it seems like the patterns or what the finetuned model learned about "Emotio
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
-
+| 1. Per-label performance | F1 ≥ 0.55 for each label | 2/3 | 2/3 | 2/3 | MISS |
+| 2. Overall accuracy | ≥ 0.70 | 0.742 | 0.839 | 0.710 | MET |
+| 3. Beats the Baseline F1 per label | ≥ Baseline F1 2 of 3| 2/3 | 2/3 | 2/3 | MISS |
+| 4. Balance | largest label share ≤ 0.50 |  |  |  | MET |
+| 5. Dataset spread | accuracy spread ≤ 0.10 | 0.129 | 0.129 | 0.129 | MISS |
 
 | Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
 |---|---|---|---|---|
@@ -302,12 +301,12 @@ model. Your agreement report is the thing that can tell you which.
      all three seeds, not turn up sometimes. -->
 
 | # | Criterion | Target | Verdict | How I decided |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+|---|---|---|---|---|---|
+| 1. Per-label performance | F1 ≥ 0.55 for each label | MISS | 'Emotional Reaction' F1 score was 0.00. The other two met the threshold. |
+| 2. Overall accuracy | ≥ 0.70 | MET | Lowest accuracy for seed 2024 was 70%. |
+| 3. Beats the Baseline F1 per label | ≥ Baseline F1 2 of 3| MISS | The baseline got a better F1 score for "Emotional Reaction" label (-0.400) |
+| 4. Balance | largest label share ≤ 0.50 | MET | No label had more than 49%. Reasoned Opinion had the most with 49.5%|
+| 5. Dataset spread | accuracy spread ≤ 0.10 | MISS | The spread was 0.129 across the three seeds. |
 
 **Diagnoses**
 
@@ -320,7 +319,11 @@ model. Your agreement report is the thing that can tell you which.
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
 
+**Criterion 1 Miss:** I believe the cause was that there are a little bit of examples for Emotional reaction and especially since it can be exchanged with Unreasoned Opinion occassionally. Having enough examples will help distinguish between the two.
 
+**Criterion 3 Miss:** I think the cause for criterion 1 is the same for criterion 3. The trained model doesn't understand "Emotional Reaction" class, but the baseline gets a description on it and can decide better on the class.
+
+**Criterion 5 Miss:** I think the cause is the same as the other two. The 'Emotional Reaction' class to weak that it can make up for a loss of accuracy or f1 scores in the other two. Also the distribution between the two other labels are even but not 'Emotional Reaction' label. 
 
 ---
 
@@ -357,9 +360,9 @@ Didn't get disagreemnts and I think because the examples were too easy.
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** Add more examples of Emotional Reaction 
 
-**Which diagnosis pointed at it:**
+**Which diagnosis pointed at it:** Criterion 1, 3, 5.
 
 ### Run Log — After
 

@@ -85,6 +85,9 @@ Agreement between annotators should be at least 90%.
 
 Don't want to much disagreement because that would mean the taxonomy defintions are not clear or decriptive enough. 90% is a good mark.
 
+> **Revised in unit 6:** Beats the Baseline F1 per label 
+>
+> **Why revised:** This criterion was not a good fit for the project because the real decision question was whether the model outperformed the baseline on the label-level signals that mattered most. Since the taxonomy is uneven and the smallest label is unstable, evaluating improvement against the baseline F1 per label gives a more meaningful and measurable test than annotator agreement.
 
 ---
 
@@ -107,7 +110,9 @@ Predictions at confidence ≥ 0.8 are correct ≥ 85% of the time
 **Why this target:**
 I chose this confidence target because predictions above the threshold should be reliable enough to use without checking every post. Lower-confidence predictions can be reviewed manually.
 
-
+> **Revised in unit 6:** Dataset spread is less than 0.10
+>
+> **Why revised:** Confidence was not the main issue here because the model was not stable across seeds, and the spread in accuracy was the more important signal of whether the task was reliable. Since a spread above 0.10 means results shift too much depending on the random split, tracking dataset spread is a better measure of consistency for this project than checking confidence thresholds.
 ---
 
 <!-- ─────────────────────────────────────────────────────────────────────────
