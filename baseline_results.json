@@ -1,0 +1,189 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 31,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 31,
+    "accuracy": 0.4838709677419355,
+    "f1_macro": 0.34545454545454546,
+    "per_label": {
+      "Emotional Reaction": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4,
+        "support": 3
+      },
+      "Reasoned Opinion": {
+        "precision": 0.4827586206896552,
+        "recall": 0.9333333333333333,
+        "f1": 0.6363636363636364,
+        "support": 15
+      },
+      "Unreasoned Opinion": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 13
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "I will be listening to Lips for a long time, that \"on me on me on me baby i'll be, i'll be, i'll be honest\" is super cute and catchy",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "IVE understood the assignment of album openers! Blue Blood is a strong track to start off their 1st Full Album\n\nEdit: Blue Blood not Blue Moon. Got too excited ",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "blue blood sounds soooo arab omg im obsessed",
+      "gold": "Emotional Reaction",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "It\u2019s very breezy and nice, I love some summer flowy songs a la Alcohol Free by TWICE. Lips feels similar-ish to me, definitely will be a nice summer tune by the pool or the beach for sure",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Had high expectations for this album due to loving all their music so far with love dive even being #1 on my spotify wrapped and I have to say it exceeded those expectations. No skips for me so I am officially declaring myself as an IVE fan and Rei as my bias.",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "My favs besides title track are cherish > hypnosis = blue blood > shine with me > mine.\n\nNot your girl and lips get honorary mention.\n\nNext page and heroine were pretty forgettable for me. Solid album tbh considering didn't make me listen only two songs!! Kitsch....i don't think i would like it if it wasn't a pre release but it has pretty much grown up on me after all that crazy streaming LMAO.\n\nI AM is the song of century. Periodt lol.",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "omg i love Lips, it's such a summer bop!??!",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "This album only has bops. Thank you IVE for giving us good music.",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "The album is just so good!",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "lips and not your girl are my favorite bsides for now and i love i am. I\u2019m overall impressed with the album.",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "BRUH what is this album cover you can\u2019t even call it an album cover. all the budget went into the mv starship clearly can only do one thing at a time",
+      "gold": "Reasoned Opinion",
+      "predicted": "Emotional Reaction"
+    },
+    {
+      "text": "Shine With Me is just unbelievable. I'm usually not one for these slower songs but man this just hits.",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "For lips it's give bit buffer between jarring Kitsch peak - more playful, sexy tho that piano background bit too loud for me\n\nHeroin opening are catchy as heck it reminds me of tha Heart Signal track i don't remember what. My god the lyrics by yujin delivered tho.\n\nMine maybe the least favourite on first listen. But sing Liz yujin sing, all members voice really really shines in his track in particular tho. It's just at their own range. Edit: After few listen kinda into this song now\n\nBruh that hypnosis beginning are harsh(in not soo good way) but overall the songs are Amazingly brash. then Liz line heal me up real quick\n\nIVE take on bubblegum, cheerful kpop on not your girl, can't say i dislike it.\n\nShine with me as the ending, classy sad n ANGELICAL.\n\nThe MVP of this Albums for me is Yujin second is Liz, but very interesting how producer using Leeseo voise almost similarly as Wonyoung n it's very much ingrained in IVE sounds. Very interested too see how will leeseo growth as time passed by",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Listening to it again and the album is definitely, definitely bloated. Some needed to be rearranged or cut from the project",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Blue Blood is the best album opener IMO",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "As a (heavy) ballad enjoyer I feel you on this one ! I definitely enjoyed Yuri, Yena and Eunbi's ballad but man I MISSED so much hearing Yujin singing a ballad.. this is my favorite song of the album, it just reminded me of her bridge in Really Like You or her chorus in With One...\n\nThis and the meaning of the song which was written by Wony herself..",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Now that I\u2019ve checked out the line distribution, they all had good amount of lines so I\u2019m not too worried about Baddie since it\u2019s definitely going to be a rap song so she\u2019d definitely get some decent lines like in Hypnosis.\n\nAlso apparently Gaeul is the only one who sang the entire chorus and it\u2019s the first time in an IVE Title Track.",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Oh, this is very good! Tbh after listening to it a couple more times I'm conflicted on the title track - I love it except for the chorus, which feels kind of awkward and staccato to me - but the B-sides all range from good to fantastic.\n\nCurrent standouts are Blue Blood (my favorite), Mine, Hypnosis, and Cherish.",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Hmm\u2026 my thoughts are that all of the songs on this album are good, but overall it didn\u2019t wow me. It had a few standouts (Blue Blood/Hypnosis were my favorites); Kitsch and I AM are also pretty good. But the rest of the songs felt kinda meh to me. They\u2019re not bad; I just don\u2019t see myself listening to them ever again. I guess 4/11 re-listenable tracks isn\u2019t the worst record for an album though!",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "1 month later and I'm still obsessed with this album",
+      "gold": "Emotional Reaction",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Blue blood are top notch as shown already in that fancon. I AM showing off why they're the title track plus liking the message by kim eana. Loving the transition between high of I AM to more chill opening of kitsch",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "This really is a no skip album. Dives eating good this comeback.",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "First three tracks are actually a pretty fire opening for the album. Just really glad to get Blue Blood studio version - I've had the youtube fancams on repeat for ages. Kitsch to me sounds better in context here. I was a little dubious on first hearing but it's grown on me a bit.\n\nFavourite of the newer tracks for me is Hypnosis. Love the vibe, great hearing a bit of drum n bass dropped in there in the middle. And this is Rei's best rap moment on the album I think.",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "This album is so goooooooood, also i wish Hypnosis would be longer!!! All songs slap. Also the Shine With Me song is just masterpiece!!!!!!!!",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "This is such an incredibly solid debut album. I love it, I'd only really skip 2 of the songs. Whoever they're working with the curate their sound, they're hitting it out of the park. It's just good, straightforward pop music!\n\nI love that they're at the top of their game alone with NewJeans and they're both giving us different sounds and concepts. Both deserve their success, it's just good music! It's such a fun time to be a girl group fan!",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "I really love the album! i actually think mellow-pop fits ive REALLY well which is why next page and cherish are my favorites! i'm really hoping they continue in this direction! as much as i like not your girl, it definitely doesn't fit the vibes of the album in my opinion. it sounds like a summer song early on in their career lol",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "Literally felt the same! I enjoyed the track but was left a bit disappointed after hearing the teaser to this. More mellow than I expected. I was wanting a bit more \u201coomph\u201d with the chorus and wished the song overall was more grand if that makes sense? Tho it did pop off more by the final chorus. Either way, a solid release from IVE!",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "next page is an EXPERIENCE my goodness",
+      "gold": "Emotional Reaction",
+      "predicted": "Emotional Reaction"
+    },
+    {
+      "text": "Blue Blood sounds amazing, it\u2019s such a good opener to the album!",
+      "gold": "Unreasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "songs were nice alone but i don\u2019t know if i would\u2019ve put them all on the same album. it felt sloppy on the directors end as it didn\u2019t feel at all cohesive. also the title was extremely jarring from their high teen concept and sounded like a countries national anthem. id have to say blue blood and cherish are my favorites.",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    },
+    {
+      "text": "such a solid album. genuinely blown away by the title track and i think it shows other sides to them musically and what they are capable of.",
+      "gold": "Reasoned Opinion",
+      "predicted": "Reasoned Opinion"
+    }
+  ]
+}

@@ -230,22 +230,21 @@ Note: Emotional Reaction only has 3 examples for both val and test set.
 
 ## Baseline vs. Trained
 
-<!-- Both models on the same posts. `python baseline.py --trained results.json`
-     prints this table for you. -->
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.484 | 0.774 | +0.290 |
+| Macro F1 | 0.345 | 0.539 | +0.193 |
+| F1 — `Emotional Reaction` | 0.400 | 0.000 | -0.400 |
+| F1 — `Reasoned Opinion` | 0.636 | 0.875 | +0.239 |
+| F1 — `Unreasoned Opinion` | 0.000 | 0.741 | +0.741 |
 
 **What I predicted before I looked:**
 I predict that posts that could be between two posts will be misclassified by the baseline model. Since I myself made the decision on these labels, it comes from my own perspective rather than a model's.
 
 **What the gap actually means:**
-<!-- If the baseline matched your trained model, your fine-tuning added
-     nothing — and that is a real finding, not a failure. Say it plainly. -->
+
+So, it seems like the patterns or what the finetuned model learned about "Emotional Reaction" was not enough to classify them. The baseline was able to do somewhat better with just an explanation of the label.
 
 
 
@@ -264,21 +263,34 @@ I predict that posts that could be between two posts will be misclassified by th
 | 4.  |  |  |  |  |  |
 | 5.  |  |  |  |  |  |
 
+
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.742 | 0.839 | 0.710 | 0.129 |
+| Macro F1 | 0.514 | 0.587 | 0.498 | 0.089 |
+| F1 — `Reasoned Opinion` | 0.848 | 0.933 | 0.786 | 0.148 |
+| F1 — `Unreasoned Opinion` | 0.692 | 0.828 | 0.710 | 0.135 |
+| F1 — `Emotional Reaction` | 0.000 | 0.000 | 0.000 | 0.000 |
+
+Accuracy moved 0.129 across seeds — more than 10 points. Your dataset is too small or too lopsided for a stable measure. That IS a diagnosis. Write it down.
+
 ### Confusion matrix
 
-<!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
-     An image of a matrix earns nothing. -->
-
-| true \ predicted |  |  |  |
+| true \ predicted | Reasoned Opinion | Unreasoned Opinion | Emotional Reaction |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **Reasoned Opinion** | 14 | 1 | 0 |
+| **Unreasoned Opinion** | 4 | 9 | 0 |
+| **Emotional Reaction** | 0 | 3 | 0 |
+
 
 **My biggest off-diagonal number, and what it means:**
-<!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
-     direction. "7 real analysis posts were called hot_take and only 3 went the
-     other way" is a direction, not just an error rate. -->
+
+Biggest confusion: 4 real `Unreasoned Opinion` posts called `Reasoned Opinion`.
+The other direction: 1 real `Reasoned Opinion` posts called `Unreasoned Opinion`.
+
+That's lopsided — the model leans toward `Reasoned Opinion` on this pair.
+A direction like that usually points at your labelling rather than the
+model. Your agreement report is the thing that can tell you which.
 
 
 
@@ -314,33 +326,11 @@ I predict that posts that could be between two posts will be misclassified by th
 
 ## Agreement Report
 
-<!-- Your rate against the staff set, and every disagreement adjudicated.
+**Agreement rate:** 30 / 30 = 100%
 
-     Remember you labelled these 30 under the STAFF taxonomy in
-     data/staff_taxonomy.md, not your own — so every argument below is made
-     from those definitions and those decision rules. -->
-
-**Agreement rate:** ___ / 30 = ___%
-
-<!-- Nobody grades this number. A 60% who argues every disagreement from the
-     stated rules beats a 95% who wrote "staff was right" nine times. Several
-     of the 30 were chosen because they're genuinely ambiguous — you should be
-     winning some of these. -->
 
 **Disagreements**
 
-<!-- Three lines each: the post, both labels, and who you think is right and
-     why — grounded in the staff definitions you were both applying.
-
-     Then sort each into one of three piles:
-       (a) the rule covered it and I applied it loosely → a consistency problem
-       (b) the rule genuinely doesn't say               → a gap in the definitions
-       (c) the rule is ambiguous here and my reading is defensible → argue it.
-           This is a legitimate win.
-
-     Pile (a) is the one that matters most for your diagnosis: if you applied a
-     written rule two different ways on 30 posts, that is direct evidence about
-     what you did across your own 200. -->
 
 **1.**
 > *The post:*
@@ -361,8 +351,7 @@ I predict that posts that could be between two posts will be misclassified by th
 > *Which pile:*
 
 **What the pattern in my disagreements tells me:**
-
-
+Didn't get disagreemnts and I think because the examples were too easy.
 
 ---
 

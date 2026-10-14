@@ -1,0 +1,164 @@
+[
+  {
+    "seed": 42,
+    "n_test": 31,
+    "accuracy": 0.7419354838709677,
+    "f1_macro": 0.5135975135975136,
+    "per_label": {
+      "Reasoned Opinion": {
+        "precision": 0.7777777777777778,
+        "recall": 0.9333333333333333,
+        "f1": 0.8484848484848485,
+        "support": 15
+      },
+      "Unreasoned Opinion": {
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f1": 0.6923076923076923,
+        "support": 13
+      },
+      "Emotional Reaction": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      }
+    },
+    "confusion": {
+      "Reasoned Opinion": {
+        "Reasoned Opinion": 14,
+        "Unreasoned Opinion": 1,
+        "Emotional Reaction": 0
+      },
+      "Unreasoned Opinion": {
+        "Reasoned Opinion": 4,
+        "Unreasoned Opinion": 9,
+        "Emotional Reaction": 0
+      },
+      "Emotional Reaction": {
+        "Reasoned Opinion": 0,
+        "Unreasoned Opinion": 3,
+        "Emotional Reaction": 0
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.7034551501274109,
+      "mean_when_wrong": 0.6576384902000427,
+      "accuracy_most_confident_third": 0.9,
+      "accuracy_least_confident_third": 0.8,
+      "n_per_third": 10
+    },
+    "device": "cuda",
+    "device_name": "Tesla T4",
+    "torch_version": "2.11.0+cu130",
+    "max_length": 128
+  },
+  {
+    "seed": 7,
+    "n_test": 31,
+    "accuracy": 0.8387096774193549,
+    "f1_macro": 0.5869731800766284,
+    "per_label": {
+      "Reasoned Opinion": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333,
+        "f1": 0.9333333333333333,
+        "support": 15
+      },
+      "Unreasoned Opinion": {
+        "precision": 0.75,
+        "recall": 0.9230769230769231,
+        "f1": 0.8275862068965517,
+        "support": 13
+      },
+      "Emotional Reaction": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      }
+    },
+    "confusion": {
+      "Reasoned Opinion": {
+        "Reasoned Opinion": 14,
+        "Unreasoned Opinion": 1,
+        "Emotional Reaction": 0
+      },
+      "Unreasoned Opinion": {
+        "Reasoned Opinion": 1,
+        "Unreasoned Opinion": 12,
+        "Emotional Reaction": 0
+      },
+      "Emotional Reaction": {
+        "Reasoned Opinion": 0,
+        "Unreasoned Opinion": 3,
+        "Emotional Reaction": 0
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.6597842574119568,
+      "mean_when_wrong": 0.5721427202224731,
+      "accuracy_most_confident_third": 1.0,
+      "accuracy_least_confident_third": 0.8,
+      "n_per_third": 10
+    },
+    "device": "cuda",
+    "device_name": "Tesla T4",
+    "torch_version": "2.11.0+cu130",
+    "max_length": 128
+  },
+  {
+    "seed": 2024,
+    "n_test": 31,
+    "accuracy": 0.7096774193548387,
+    "f1_macro": 0.49846390168970817,
+    "per_label": {
+      "Reasoned Opinion": {
+        "precision": 0.8461538461538461,
+        "recall": 0.7333333333333333,
+        "f1": 0.7857142857142857,
+        "support": 15
+      },
+      "Unreasoned Opinion": {
+        "precision": 0.6111111111111112,
+        "recall": 0.8461538461538461,
+        "f1": 0.7096774193548387,
+        "support": 13
+      },
+      "Emotional Reaction": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      }
+    },
+    "confusion": {
+      "Reasoned Opinion": {
+        "Reasoned Opinion": 11,
+        "Unreasoned Opinion": 4,
+        "Emotional Reaction": 0
+      },
+      "Unreasoned Opinion": {
+        "Reasoned Opinion": 2,
+        "Unreasoned Opinion": 11,
+        "Emotional Reaction": 0
+      },
+      "Emotional Reaction": {
+        "Reasoned Opinion": 0,
+        "Unreasoned Opinion": 3,
+        "Emotional Reaction": 0
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.6549384593963623,
+      "mean_when_wrong": 0.5137400031089783,
+      "accuracy_most_confident_third": 0.9,
+      "accuracy_least_confident_third": 0.3,
+      "n_per_third": 10
+    },
+    "device": "cuda",
+    "device_name": "Tesla T4",
+    "torch_version": "2.11.0+cu130",
+    "max_length": 128
+  }
+]
